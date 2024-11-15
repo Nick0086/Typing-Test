@@ -1,7 +1,7 @@
 import './App.css'
 import { useState } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
-import SideBar from './components/ui/SideBar';
+import SideBar from './components/ui/sidebar';
 import Header from './components/ui/Header';
 import TypingTestRoutes from './routes/TypingTestRoutes';
 import FaceRecognitionRoutes from './routes/FaceRecognitionRoutes';
