@@ -18,6 +18,7 @@ export default function FaceRecognitionIndex() {
         navigate(`/face-recognition/${tab}`);
     }
   return (
+    // hii
     <div className="tw-shadow-custom main-wrapper main-wrapper-1 " style={{ fontFamily: 'Nunito, "Segoe UI", arial' }} >
             <div className="main-content tw-text-xs sm:tw-text-base ">
                 <section className="section">

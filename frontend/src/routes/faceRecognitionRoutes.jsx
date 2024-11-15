@@ -12,6 +12,7 @@ export default function FaceRecognitionRoutes() {
         <Route index element={<Navigate to="dashboard" replace />} />
         <Route path="dashboard" element={<TabsContent value="dashboard"><FaceRecognitionDashBoard/></TabsContent>} />
         <Route path="face-detection" element={<TabsContent value="face-detection"><FaceRecognitionModal/></TabsContent>} />
+        {/* <Route path="face-detection" element={<TabsContent value="face-detection"><FaceRecognitionModal/></TabsContent>} /> */}
       </Route>
     </Routes>
   )

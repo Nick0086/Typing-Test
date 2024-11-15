@@ -29,7 +29,7 @@ function App() {
         <div className={`tw-bg-transparent tw-m-5`}>
           <Routes>
             {/* added your routes here */}
-            <Route path='/' element={<div>{"Hey 🙋‍♂️"}</div>} />
+            <Route path='/' element={<div>{"Hey 🙋‍♂️ ...?"}</div>} />
             <Route path='/typing-test/*' element={<TypingTestRoutes />} />
             <Route path='/face-recognition/*' element={<FaceRecognitionRoutes />} />
           </Routes>
